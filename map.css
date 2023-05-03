@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://uploads-ssl.webflow.com/5e4b7985a58df89b6c254001/60a33400c626a550a00bcc48_gradient-7-full-p-2000.jpeg");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-others {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+.hr1 {
+  color: black;
+}
+#map-canvas {
+  width: 1080px;
+  height: 720px;
+   {
+    /*border: 6px solid #056af7;*/
+  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
